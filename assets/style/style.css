@@ -1,0 +1,249 @@
+/* Style général*/
+    body{
+    background-color: rgb(245, 245, 245);
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.white-section{
+    background-color:white;
+    color:black;
+}
+
+.black-section{
+    background-color:black;
+    color:white;
+}
+
+body section .section title {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+body section .section-content {
+    text-align: justify;
+}
+
+/* Barre de navigation */
+.main-navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 64px;
+    background-color: white;
+    box-shadow: 0px 3px 10px rgb(59, 59, 59);
+    z-index: 100;    
+}
+
+    
+.main-navbar .logo{
+    height: 50px;
+    margin: 7px 20px;
+
+}
+
+.main-navbar .links-container {
+    float: right;
+    margin: 0px 20px;
+    padding-left: 20px;
+    height: 64px;
+}
+
+.main-navbar .links-container li {
+    display: inline-block;
+    height: 50px;
+    padding: 7px 10px;
+    line-height: 50px;
+}
+
+.main-navbar .links-container li:hover {
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+}
+
+.main-navbar .links-container li:hover{
+    background-color:#151515;
+    text-decoration: none;
+}
+
+.main-navbar .links-container li:hover a {
+    color: white;
+}
+
+/* En tête */
+header { 
+    min-height: 100vh;
+    background-image: url("../ressources/top.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+header .header-content {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 20vh;
+}
+
+header .header-content h1,
+header .header-content p {
+    text-align: center;
+    color: white;
+}
+
+header .header-content h1 {
+    font-size: 80px;
+}
+
+header .header-content p {
+    font-style: italic;
+    font-size: 40px;
+}
+
+/* Informations */
+#informations {
+    min-height: 70vh;
+    display: flex;
+    background-color: white;
+}
+
+#informations .left-content {
+    flex: 1;
+    padding: 20px 30px;
+}
+
+#informations .signature {
+    margin-top: 20px;
+    text-align: right;
+}
+
+#informations .right-content {
+    background-image: url("../ressources/sophie.jpg");
+    background-size: cover;
+    flex: 1;
+}
+
+#information .section-title {
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+
+/* Créations */
+#creations {
+    background-color: #151515;
+    padding: 20px 30px;
+}
+
+#creations .section-title {
+    color: white;
+    text-align: center;
+}
+
+#creations .creations-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#creations .creations-container .picture-container {
+    flex: 1;
+    list-style: none;
+    margin: 20px;
+    flex-basis: 300px;
+}
+
+#creations .creations-container .picture-container img {
+    width: 100%;
+}
+
+/* Tarifs */
+#pricing {
+    background-color: white;
+    padding: 20px 30px 50px 20px;
+}
+
+#pricing .section-title {
+    text-align: center;
+}
+
+#pricing .price-table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+#pricing .price-table th,
+#pricing .price-table td {
+    border: 1px solid#151515;
+    padding: 20px;
+}
+
+#pricing .price-table th {
+    background-color: #151515;
+    color: white;
+}
+
+/* Contact */
+#Contact {
+    background-color: #151515;
+    padding: 20px 30px;
+}
+
+#contact .section-title {
+    color: white;
+    text-align: center;
+}
+
+#contact .contact-form {
+    margin: auto;
+    width: 50vw;
+}
+
+#contact .contact-form label {
+    color: white;
+}
+
+#contact .contact-form .text-input-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact .contact-form input[type="text"],
+#contact .contact-form input[type="email"],
+#contact .contact-form textarea {
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#contact .contact-form .submit-button {
+    width: 100px;
+    margin: 50px auto;
+    display: block;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+#contact .contact-form .submit-button:hover {
+    background-color: white;
+    color:  #151515;
+    cursor: pointer;
+}
+
+/* Pied de page */
+footer {
+    background-color: #3a3a3a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+
